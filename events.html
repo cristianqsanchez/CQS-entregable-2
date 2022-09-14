@@ -40,7 +40,7 @@
                 <td>Platea</td>
                 <td id="platea" class="price">$0</td>
                 <td>
-                  <select id="platea">
+                  <select id="platea" onchange="handleTickets(this)">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -54,7 +54,7 @@
                 <td>Luneta</td>
                 <td id="luneta" class="price">$0</td>
                 <td>
-                  <select id="luneta">
+                  <select id="luneta" onchange="handleTickets(this)">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -68,7 +68,7 @@
                 <td>General</td>
                 <td id="general" class="price">$0</td>
                 <td>
-                  <select id="general">
+                  <select id="general" onchange="handleTickets(this)">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -121,6 +121,6 @@
       </aside>
     </main>
 
-    <script src="main.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
