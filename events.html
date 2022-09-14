@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="css/template.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          src="img/phoenix-logo.png"
+          alt="phoenix logo"
+          width="220px"
+          height="100px"
+        />
+      </a>
+      <nav class="nav">
+        <a href="events.html">Eventos</a>
+        <a href="#">Sobre Nosotros</a>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="event">
+        <img src="img/event-1.webp" alt="evento" />
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo de ticket</th>
+                <th>Valor</th>
+                <th>Cantidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Platea</td>
+                <td id="platea" class="price">$0</td>
+                <td>
+                  <select id="platea">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Luneta</td>
+                <td id="luneta" class="price">$0</td>
+                <td>
+                  <select id="luneta">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>General</td>
+                <td id="general" class="price">$0</td>
+                <td>
+                  <select id="general">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <ul>
+            <li>
+              <span>Valor:</span>
+              <span id="price" class="price">$0</span>
+            </li>
+            <li>
+              <span>IVA:</span>
+              <span id="iva" class="price">$0</span>
+            </li>
+            <li>
+              <span>Total a pagar:</span>
+              <span id="netPrice" class="price">$0</span>
+            </li>
+            <li>
+              <button class="btn">Comprar</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <aside>
+        <div class="card card-small">
+          <img src="img/event-1.webp" alt="evento" />
+          <div class="card-body-small">
+            <h4>FERXXO NITRO JAM</h4>
+          </div>
+        </div>
+        <div class="card card-small">
+          <img src="img/event-2.webp" alt="evento" />
+          <div class="card-body-small">
+            <h4>QUE NO SE TE OLVIDE</h4>
+          </div>
+        </div>
+        <div class="card card-small">
+          <img src="img/event-3.webp" alt="evento" />
+          <div class="card-body-small">
+            <h4>ANDRÉS CEPEDA ME IMPORTAS TOUR 2022</h4>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
